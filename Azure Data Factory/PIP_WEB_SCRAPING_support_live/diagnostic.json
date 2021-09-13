@@ -1,0 +1,22 @@
+{
+    "now": "2021-09-06T15:57:31.331Z",
+    "perfNow": 263002095.70000002,
+    "diagnosticCorrelation": "165c7dfe-bc41-4700-afab-fbfc6a876153",
+    "source": "DownloadSupportFiles",
+    "environment": {
+        "productName": "adf",
+        "buildVersion": "1.0.20210902.7",
+        "environmentType": 3,
+        "resourceName": "projetointegradogrupob",
+        "resourceRegion": "eastus",
+        "resourceGroup": "blueshift-academy",
+        "subscriptionId": "e9f266b7-47a3-4c25-a8b7-522266df7180",
+        "sessionId": "6V49n",
+        "operationId": "R/Nk0",
+        "gitType": "live"
+    },
+    "additionalInfo": {
+        "selectedResource": "PIP_WEB_SCRAPING",
+        "selectedResourceType": "pipeline"
+    }
+}

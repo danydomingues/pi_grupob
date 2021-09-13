@@ -1,0 +1,43 @@
+{
+    "name": "PIP_MASTER",
+    "properties": {
+        "activities": [
+            {
+                "name": "WEB_SCRAPING",
+                "type": "ExecutePipeline",
+                "dependsOn": [],
+                "userProperties": [],
+                "typeProperties": {
+                    "pipeline": {
+                        "referenceName": "PIP_WEB_SCRAPING",
+                        "type": "PipelineReference"
+                    },
+                    "waitOnCompletion": true
+                }
+            },
+            {
+                "name": "PIP_TRATAMENTO",
+                "type": "ExecutePipeline",
+                "dependsOn": [
+                    {
+                        "activity": "WEB_SCRAPING",
+                        "dependencyConditions": [
+                            "Succeeded"
+                        ]
+                    }
+                ],
+                "userProperties": [],
+                "typeProperties": {
+                    "pipeline": {
+                        "referenceName": "PIP_TRATAMENTO",
+                        "type": "PipelineReference"
+                    },
+                    "waitOnCompletion": true
+                }
+            }
+        ],
+        "annotations": [],
+        "lastPublishTime": "2021-09-02T20:49:40Z"
+    },
+    "type": "Microsoft.DataFactory/factories/pipelines"
+}

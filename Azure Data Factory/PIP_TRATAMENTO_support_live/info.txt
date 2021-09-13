@@ -1,0 +1,6 @@
+selected resource name:		PIP_TRATAMENTO
+selected resource type:		pipeline
+data factory name:			projetointegradogrupob
+data factory location:		eastus
+subscription id:		e9f266b7-47a3-4c25-a8b7-522266df7180
+time of download (UTC):		Mon, 06 Sep 2021 15:57:24 GMT
